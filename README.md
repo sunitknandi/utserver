@@ -56,4 +56,5 @@ Feel free to fork it, edit it and send me a pull request. It can greatly help in
 
 ## Questions and suggestions
 Feel free to shoot me a mail at sunitnandi834 (at) gmail (dot) com and I'll get back to you. :smile:
-May the source be with you. :smile:
+
+May the source be with you. :octocat:
