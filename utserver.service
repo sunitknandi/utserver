@@ -1,0 +1,12 @@
+[Unit]
+Description=uTorrent Server Daemon
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/utserver -configfile /etc/utserver.conf -settingspath /srv/utserver/settings/ -pidfile /srv/utserver/utserver.pid -logfile /srv/utserver/utserver.log -daemon
+User=utserver
+PIDFile=/srv/utserver/utserver.pid
+
+[Install]
+WantedBy=multi-user.target
